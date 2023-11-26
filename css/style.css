@@ -1,0 +1,162 @@
+/*GENERAL - STRUTTURA*/
+
+header {
+    background-color: white;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.my-row{
+    height: calc(100vh - 60px);
+}
+
+.col-left{
+    background-color: #11283E;
+    border: 2px dashed blue;
+    height: 100%;
+}
+
+.col-right{
+    background-color: lightcoral;
+    border: 2px dashed palevioletred;
+    overflow-y: auto;
+    height: 100%;
+}
+
+.list-menu-left ul li a {
+    text-decoration: none;
+    color: white
+}
+
+.main-short-1{
+    display: none;
+}
+
+.short-header{
+    display: none;
+}
+
+.row .col .col-12 .row .col-12{
+}
+
+
+/*AGGIUNTA CONTENUTO HEADER*/
+
+.header-logo-small{
+    width: 50px;
+}
+
+.ciaooo{
+    font-size: 12px;
+}
+
+/*AGGIUNTA CONTENUTO MAIN*/
+
+.main-header{
+    background-color: #1B72E8;
+}
+
+.button-font-size{
+    font-size: 12px;
+}
+
+.font-main-header-sec-1{
+    font-size: 10px;
+}
+
+.font-main-header-section-3{
+    font-size: 13px;
+    color: white;
+}
+
+.button-form{
+    background-color: #1B72E8;
+}
+
+.card-img-top{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.big-container-main{
+    background-color: green;
+    border: 1px solid black;
+}
+
+
+.col-left-1{
+    background-color: chocolate;
+    border: 2px dashed violet;
+}
+
+.col-left-2{
+    background-color: rebeccapurple;
+    border: 2px dashed grey;
+}
+
+.col-left-3{
+    background-color: tomato;
+    border: 2px dashed black;
+}
+
+.col-left-4{
+    background-color: indigo;
+    border: 2px dashed white;
+}
+
+
+
+
+
+
+*******RESPONSIVE*********
+
+/*I BREAKPOINT*/
+@media screen and (max-width: 992px){
+
+
+    }
+
+
+
+
+/*II BREAKPOINT*/
+@media screen and (max-width: 768px){
+
+
+ 
+    
+}
+
+
+
+/*III BREAKPOINT*/
+@media screen and (max-width: 576px) {
+
+    }
+
+
+
+
