@@ -60,36 +60,40 @@
     <main>
         <div class="container-fluid big-container-main">
             <div class="row my-row">
-                <div class="col-auto text-white col-left list-menu-left">
+                <div class="col-auto text-white col-left list-menu-left d-flex flex-column justify-content-between">
+                      <div>
                         <ul class="list-unstyled p-3">
-                            <li class="mb-2">
+                            <li class="mb-2 hover-menu-left">
                                 <i class="fa-solid fa-house"></i> 
                                 <a class="d-none d-lg-inline-block" href="#">
                                     Home
                                 </a>
                             </li>
 
-                            <li class="mb-2"> 
-                                <i class="fa-solid fa-bars-staggered fa-rotate-90"></i> 
+                            <li class="mb-2 hover-menu-left"> 
+                                <i class="fa-solid fa-bars-staggered fa-rotate-90 "></i> 
                                 <a class="d-none d-lg-inline-block" href="#">
                                    Stats
                                 </a>
                             </li>
 
-                            <li>
+                            <li class="hover-menu-left">
                                 <i class="fa-solid fa-signal"></i>
                                 <a class="d-none d-lg-inline-block" href="#">
                                     Signal
                                 </a>
                             </li>
                         </ul>
+                      </div>
 
-                    <div class="adminn p-3">
+                  <div class="p-3">
+                    <div class="hover-menu-left">
                         <i class="fa-solid fa-gear"></i> 
                         <a class="d-none d-lg-inline-block text-decoration-none text-white" href="#">
-                            Admin
+                          Admin
                         </a>
                     </div>
+                  </div>
                 </div>
                 
                 <!--
@@ -124,47 +128,50 @@
 
                 <div class="col col-right">
                     <div class="main-header row p-3">
-                    
-                        <div class="col-md-5 col-lg-6 order-2 order-md-1">
-                            <div class="mt-3 mt-md-0">
-                                <div class="boolean-1 d-inline text-white fs-3">
-                                    Boolean
-                                </div>
-                                <div class="d-inline-block align-items-center">
-                                    <button type="button" class="text-white button-font-size bg-dark bg-gradient bg-opacity-25 rounded-5">
-                                        Piano Blaze
-                                    </button>
-                                </div>
-                            </div>
+                      <div class="col-md-5 col-lg-6 order-2 order-md-1">
+                        <div class="mt-3 mt-md-0">
+                          <div class="boolean-1 d-inline text-white fs-3">
+                            Boolean
+                          </div>
+                          <div class="d-inline-block align-items-center">
+                            <button type="button" class="text-white button-font-size bg-dark bg-gradient bg-opacity-25 rounded-5">
+                              Piano Blaze
+                            </button>
+                          </div>
+                        </div>
 
-                            <div class="button-font-size text-white">
-                                <div class="d-flex align-items-center">
-                                    <div>
-                                        <span class="bg-dark bg-gradient bg-opacity-25 me-1 p-1 rounded-5">
-                                            3 App
-                                        </span>
-                                    </div>
-                                    <div>
-                                        <i class="fa-solid fa-angles-right fa-sm me-1" style="color: #ffffff;"></i>
-                                    </div>
-                                    <div>
-                                        <span class="bg-dark bg-gradient bg-opacity-25 me-1 p-1 rounded-5">
-                                            Boolean Mobile App
-                                        </span>
-                                    </div>
-                                    <div>
-                                        <span class="bg-dark bg-gradient bg-opacity-25 me-1 p-1 rounded-5 d-none d-lg-inline-block">
-                                            Boolean Mobile Web
-                                        </span>
-                                    </div>
-                                    <div>
-                                        <span class="bg-dark bg-gradient bg-opacity-25 me-1 p-1 rounded-5 d-none d-lg-inline-block">
-                                            Boolean Blog App
-                                        </span>
-                                    </div>
-                                </div>
+                        <div class="button-font-size text-white">
+                          <div class="d-flex align-items-center">
+                            <div>
+                              <span class="bg-dark bg-gradient bg-opacity-25 me-1 p-1 rounded-5">
+                                3 App
+                              </span>
                             </div>
-                            
+                            <div>
+                              <i class="fa-solid fa-angles-right fa-sm me-1" style="color: #ffffff;"></i>
+                            </div>
+                            <div>
+                              <span class="bg-dark bg-gradient bg-opacity-25 me-1 p-1 rounded-5 d-none d-lg-block">
+                                Boolean Mobile App
+                              </span>
+                            </div>
+                            <div>
+                              <span class="bg-dark bg-gradient bg-opacity-25 me-1 p-1 rounded-5 d-lg-block">
+                                <i class="fa-solid fa-plus" style="color: #ffffff;"></i>
+                              </span>
+                            </div>
+                            <div>
+                              <span class="bg-dark bg-gradient bg-opacity-25 me-1 p-1 rounded-5 d-none d-lg-block">
+                                Boolean Mobile Web
+                              </span>
+                            </div>
+                            <div>
+                              <span class="bg-dark bg-gradient bg-opacity-25 me-1 p-1 rounded-5 d-none d-lg-block">
+                                Boolean Blog App
+                              </span>
+                            </div>
+                            </div>
+                          </div>
                         </div>
 
                         <div class="col-md-5 col-lg-4 text-white ciaooo order-3 order-md-2 mt-3 mt-md-0">
@@ -178,7 +185,7 @@
 
                         <div class="col-md-2 col-lg-2 order-1 order-md-3">
                             <div class="row d-flex">
-                                <div class=" d-flex font-main-header-section-3">
+                                <div class=" d-flex font-main-header-section-3 align-items-center">
                                     Nuovo Studente
                                     <div>
                                         <button class="btn btn-primary button-form" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
@@ -318,74 +325,182 @@
                                             Prossime classi
                                           </h5>
                                         </div>
+                                        
                                         <div class="card" style="width: 100%;">
-                                            <table class="table ">
+                                            <table class="table table-hover tablfont ">
                                                 <thead>
                                                     <tr class="p-1 text-center">
-                                                        <th class="col-8 fw-normal text-start " scope="col">Nome</th>
-                                                        <th colspan="2" class="col-1 fw-normal" scope="col">Data inizio</th>
-                                                        <th class="col-1 fw-normal" scope="col">ROI</th>
-                                                        <th class="col-1 fw-normal" scope="col">Stato</th>
-                                                        <th class="col-1 fw-normal" scope="col">Azioni</th>
+                                                        <th class="col-7 fw-normal text-start fs-6" scope="col">Nome</th>
+                                                        <th colspan="2" class="col-1 fw-normal fs-6" scope="col">Data inizio</th>
+                                                        <th class="col-1 fw-normal fs-6" scope="col">ROI</th>
+                                                        <th class="col-1 fw-normal fs-6" scope="col">Stato</th>
+                                                        <th class="col-1 fw-normal fs-6" scope="col">Azioni</th>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
                                                     <tr class="text-center">
-                                                        <th class="fw-normal text-start" scope="row"><i class="fa-solid fa-house"></i>  Classe 75</th>
-                                                        <td colspan="2">15 Feb 2021</td>
-                                                        <td>20%</td>
-                                                        <td>Done</td>
-                                                        <td><i class="fa-solid fa-pencil"></i> @</td>
-                                                      </tr>
-                                                      <tr class="text-center">
-                                                        <th class="fw-normal text-start" scope="row">Classe 76</th>
-                                                        <td colspan="2">16 Feb 2021</td>
-                                                        <td>20%</td>
-                                                        <td>Done</td>
-                                                        <td>@ @</td>
-                                                      </tr>
-                                                      <tr class="text-center">
-                                                        <th class="fw-normal text-start" scope="row">Classe 77</th>
-                                                        <td colspan="2">17 Feb 2021</td>
-                                                        <td>20%</td>
-                                                        <td>Done</td>
-                                                        <td>@ @</td>
-                                                      </tr>
-                                                      <tr class="text-center">
-                                                        <th class="fw-normal text-start" scope="row">Classe 77</th>
-                                                        <td colspan="2">18 Feb 2021</td>
-                                                        <td>20%</td>
-                                                        <td>Done</td>
-                                                        <td>@ @</td>
-                                                      </tr>
-                                                      <tr class="text-center">
-                                                        <th class="fw-normal text-start" scope="row">Classe 78</th>
-                                                        <td>20 Feb 2021</td>
-                                                        <td>@Ciao</td>
-                                                        <td>@Ciao</td>
-                                                        <td>@Ciao</td>
-                                                      </tr>
-                                                      <tr class="text-center">
-                                                        <th class="fw-normal text-start" scope="row">Classe 79</th>
-                                                        <td colspan="2">19 Feb 2021</td>
-                                                        <td>20%</td>
-                                                        <td>Done</td>
-                                                        <td>@ @</td>
-                                                      </tr>
-                                                      <tr class="text-center">
-                                                        <th class="fw-normal text-start" scope="row"> Classe 80</th>
-                                                        <td colspan="2">20 Feb 2021</td>
-                                                        <td>20%</td>
-                                                        <td>Failed</td>
-                                                        <td>@ @</td>
-                                                      </tr>
-                                                      <tr class="text-center">
-                                                        <th class="fw-normal text-start" scope="row">Classe 81</th>
-                                                        <td colspan="2">21 Feb 2021</td>
-                                                        <td>20%</td>
-                                                        <td>Done</td>
-                                                        <td>@ @</td>
-                                                      </tr>
+                                                        <th class="fw-normal text-start" scope="row">
+                                                          <i class="fa-solid fa-code bg-danger bg-gradient p-1 rounded-circle" style="color: #ffffff;"></i>
+                                                           Classe 75
+                                                        </th>
+                                                          <td class="" colspan="2">
+                                                            15 Feb 2021
+                                                          </td>
+                                                          <td class="">
+                                                            20%
+                                                          </td>
+                                                          <td class="text-white">
+                                                            <span class="bg-success p-1 rounded d-inline-block bg-success">
+                                                              Done
+                                                            </span>
+                                                           
+                                                          </td>
+                                                          <td>
+                                                            <i class="fa-solid fa-pencil border border-3 p-1 rounded-2" style="color: #7c848b;"></i>
+                                                            <i class="fa-solid fa-trash-can border border-3 p-1 rounded-2" style="color: #7c848b;"></i>
+                                                          </td>
+                                                    </tr>
+
+                                                   <tr class="text-center">
+                                                          <th class="fw-normal text-start" scope="row">
+                                                            <i class="fa-solid fa-code bg-danger bg-gradient p-1 rounded-circle" style="color: #ffffff;"></i>
+                                                             Classe 76
+                                                          </th>
+                                                            <td class="" colspan="2">
+                                                              16 Feb 2021
+                                                            </td>
+                                                            <td class="">
+                                                              20%
+                                                            </td>
+                                                            <td class="text-white">
+                                                              <span class="bg-success p-1 rounded d-inline-block">
+                                                                Done
+                                                              </span>
+                                                             
+                                                            </td>
+                                                            <td>
+                                                              <i class="fa-solid fa-pencil border border-3 p-1 rounded-2" style="color: #7c848b;"></i>
+                                                              <i class="fa-solid fa-trash-can border border-3 p-1 rounded-2" style="color: #7c848b;"></i>
+                                                            </td>
+                                                    </tr>
+
+                                                    <tr class="text-center">
+                                                            <th class="fw-normal text-start" scope="row">
+                                                              <i class="fa-solid fa-code bg-danger bg-gradient p-1 rounded-circle" style="color: #ffffff;"></i>
+                                                               Classe 77
+                                                            </th>
+                                                              <td class="" colspan="2">
+                                                                17 Feb 2021
+                                                              </td>
+                                                              <td class="">
+                                                                20%
+                                                              </td>
+                                                              <td class="text-white">
+                                                                <span class="bg-warning p-1 rounded d-inline-block">
+                                                                  Process
+                                                                </span>
+                                                               
+                                                              </td>
+                                                              <td>
+                                                                <i class="fa-solid fa-pencil border border-3 p-1 rounded-2" style="color: #7c848b;"></i>
+                                                                <i class="fa-solid fa-trash-can border border-3 p-1 rounded-2" style="color: #7c848b;"></i>
+                                                              </td>
+                                                    </tr>
+                                                            
+
+                                                    <tr class="text-center">
+                                                              <th class="fw-normal text-start" scope="row">
+                                                                <i class="fa-solid fa-code bg-danger bg-gradient p-1 rounded-circle" style="color: #ffffff;"></i>
+                                                                 Classe 78
+                                                              </th>
+                                                                <td class="" colspan="2">
+                                                                  18 Feb 2021
+                                                                </td>
+                                                                <td class="">
+                                                                  20%
+                                                                </td>
+                                                                <td class="text-white">
+                                                                  <span class="bg-success p-1 rounded d-inline-block">
+                                                                    Done
+                                                                  </span>
+                                                                 
+                                                                </td>
+                                                                <td>
+                                                                  <i class="fa-solid fa-pencil border border-3 p-1 rounded-2" style="color: #7c848b;"></i>
+                                                                  <i class="fa-solid fa-trash-can border border-3 p-1 rounded-2" style="color: #7c848b;"></i>
+                                                                </td>
+                                                    </tr>
+
+                                                       
+                                                    <tr class="text-center">
+                                                                <th class="fw-normal text-start" scope="row">
+                                                                  <i class="fa-solid fa-code bg-danger bg-gradient p-1 rounded-circle" style="color: #ffffff;"></i>
+                                                                   Classe 79
+                                                                </th>
+                                                                  <td class="" colspan="2">
+                                                                    19 Feb 2021
+                                                                  </td>
+                                                                  <td class="">
+                                                                    20%
+                                                                  </td>
+                                                                  <td class="text-white">
+                                                                    <span class="bg-danger p-1 rounded d-inline-block">
+                                                                      Failed
+                                                                    </span>
+                                                                   
+                                                                  </td>
+                                                                  <td>
+                                                                    <i class="fa-solid fa-pencil border border-3 p-1 rounded-2" style="color: #7c848b;"></i>
+                                                                    <i class="fa-solid fa-trash-can border border-3 p-1 rounded-2" style="color: #7c848b;"></i>
+                                                                  </td>
+                                                    </tr>                                                          
+
+                                                    <tr class="text-center">
+                                                                  <th class="fw-normal text-start" scope="row">
+                                                                    <i class="fa-solid fa-code bg-danger bg-gradient p-1 rounded-circle" style="color: #ffffff;"></i>
+                                                                     Classe 80
+                                                                  </th>
+                                                                    <td class="" colspan="2">
+                                                                      20 Feb 2021
+                                                                    </td>
+                                                                    <td class="">
+                                                                      20%
+                                                                    </td>
+                                                                    <td class="text-white">
+                                                                      <span class="bg-success p-1 rounded d-inline-block">
+                                                                        Done
+                                                                      </span>
+                                                                     
+                                                                    </td>
+                                                                    <td>
+                                                                      <i class="fa-solid fa-pencil border border-3 p-1 rounded-2" style="color: #7c848b;"></i>
+                                                                      <i class="fa-solid fa-trash-can border border-3 p-1 rounded-2" style="color: #7c848b;"></i>
+                                                                    </td>
+                                                    </tr>
+
+                                                    <tr class="text-center">
+                                                                    <th class="fw-normal text-start" scope="row">
+                                                                      <i class="fa-solid fa-code bg-danger bg-gradient p-1 rounded-circle" style="color: #ffffff;"></i>
+                                                                       Classe 81
+                                                                    </th>
+                                                                      <td class="" colspan="2">
+                                                                        21 Feb 2021
+                                                                      </td>
+                                                                      <td class="">
+                                                                        20%
+                                                                      </td>
+                                                                      <td class="text-white">
+                                                                        <span class="bg-danger p-1 rounded d-inline-block">
+                                                                          Failed
+                                                                        </span>
+                                                                       
+                                                                      </td>
+                                                                      <td>
+                                                                        <i class="fa-solid fa-pencil border border-3 p-1 rounded-2" style="color: #7c848b;"></i>
+                                                                        <i class="fa-solid fa-trash-can border border-3 p-1 rounded-2" style="color: #7c848b;"></i>
+                                                                      </td>
+                                                    </tr>
+
                                                 </tbody>
                                               </table>
                                           </div>
@@ -537,9 +652,7 @@
         </div>
     </div>
 </div>
-</main>   -->         
-
-
+</main>   -->        
 
 
 <!--JAVASCRIPT-->

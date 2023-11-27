@@ -14,32 +14,14 @@ header {
 
 .col-left{
     background-color: #11283E;
-    border: 2px dashed blue;
     height: 100%;
 }
 
 .col-right{
-    background-color: lightcoral;
-    border: 2px dashed palevioletred;
     overflow-y: auto;
     height: 100%;
 }
 
-.list-menu-left ul li a {
-    text-decoration: none;
-    color: white
-}
-
-.main-short-1{
-    display: none;
-}
-
-.short-header{
-    display: none;
-}
-
-.row .col .col-12 .row .col-12{
-}
 
 
 /*AGGIUNTA CONTENUTO HEADER*/
@@ -79,51 +61,41 @@ header {
     width: 100%;
 }
 
+.tablfont{
+    font-size: 14px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.big-container-main{
-    background-color: green;
-    border: 1px solid black;
+ul li a:hover, .hover-menu-left:hover{
+    background-color: rgba(245, 245, 245, 0.5);
 }
 
 
-.col-left-1{
-    background-color: chocolate;
-    border: 2px dashed violet;
+tr th:nth-child(2),
+tr td:nth-child(2){
+    display: none;
 }
 
-.col-left-2{
-    background-color: rebeccapurple;
-    border: 2px dashed grey;
+tr th:nth-child(3),
+tr td:nth-child(3){
+    display: none;
 }
 
-.col-left-3{
-    background-color: tomato;
-    border: 2px dashed black;
+.list-menu-left ul li a {
+    text-decoration: none;
+    color: white;
 }
 
-.col-left-4{
-    background-color: indigo;
-    border: 2px dashed white;
+.main-short-1{
+    display: none;
+}
+
+.short-header{
+    display: none;
+}
+
+tr th:nth-child(4),
+tr td:nth-child(4){
+    font-size: 10px;
 }
 
 
@@ -131,10 +103,36 @@ header {
 
 
 
-*******RESPONSIVE*********
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*I BREAKPOINT*/
-@media screen and (max-width: 992px){
+@media screen and (min-width: 992px){
+   
+    tr th:nth-child(2),
+    tr td:nth-child(2) 
+    {
+        display: table-cell; }
+
 
 
     }
@@ -143,17 +141,19 @@ header {
 
 
 /*II BREAKPOINT*/
-@media screen and (max-width: 768px){
+@media screen and (min-width: 768px){
 
-
- 
+    tr th:nth-child(3),
+    tr td:nth-child(3) 
+    {
+        display: table-cell; }
     
 }
 
 
 
 /*III BREAKPOINT*/
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 576px) {
 
     }
 
